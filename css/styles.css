@@ -38,6 +38,9 @@ a {
   color: #655c56;
   text-decoration: none;
 }
+a:hover {
+  color: #94d3ac;
+}
 
 body {
   margin: 0;
