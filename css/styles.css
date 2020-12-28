@@ -1,0 +1,130 @@
+.top-container {
+  background-color: #effcef;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.bottom-container {
+  background-color: #effcef;
+  padding: 30px;
+}
+
+.currently-par {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: #94d3ac;
+  margin: 50px auto 0;
+  font-family: 'Architects Daughter', cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #94d3ac;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #655c56;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: #655c56;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+hr {
+  border-style: dotted none none;
+  border-top-width: 7px;
+  border-color: #ccedd2;
+  width: 7%;
+  margin: 75px auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.profile-picture {
+  border-radius: 100%;
+  margin: 60px auto;
+  width: 15%;
+  max-width: 300px;
+}
+.footer-par {
+  margin: 30px auto 0;
+  font-size: 0.85rem;
+}
+.footer-link {
+  margin: 20px;
+  font-size: 1.4rem;
+}
+.skill-row {
+  margin: 55px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+.skill-icon {
+  width: 19%;
+  max-width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.contact-me-par {
+  width: 50%;
+  margin: 60px auto;
+}
+
+.BUTTON_ENQ {
+   background: #94d3ac;
+   border-radius: 20px;
+   height: 50px;
+   line-height: 50px;
+   color: #655c56;
+   font-family: 'Montserrat', sans-serif;
+   width: 200px;
+   font-size: 1.5rem;
+   font-weight: 100;
+   padding: 2px;
+   -webkit-box-shadow: 1px 1px 10px 0 #655c56;
+   -moz-box-shadow: 1px 1px 10px 0 #655c56;
+   box-shadow: 1px 1px 10px 0 #655c56;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 30px auto 70px;
+}
+
+.BUTTON_ENQ:hover {
+
+   background: #94d3ac;
+   background-image: -webkit-linear-gradient(top, #ccedd2, #94d3ac);
+   background-image: -moz-linear-gradient(top, #ccedd2, #94d3ac);
+   background-image: -ms-linear-gradient(top, #ccedd2, #94d3ac);
+   background-image: -o-linear-gradient(top, #ccedd2, #94d3ac);
+   background-image: -webkit-gradient(to bottom, #ccedd2, #94d3ac);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
